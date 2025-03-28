@@ -528,6 +528,8 @@ engines:
     # add "list" to the array to get results in the results list
     display_type: ["infobox"]
     categories: [general]
+    disabled: true
+
 
   - name: bilibili
     engine: bilibili
@@ -805,6 +807,7 @@ engines:
 
   - name: wikidata
     engine: wikidata
+    disabled: true
     shortcut: wd
     timeout: 3.0
     weight: 2
@@ -816,6 +819,7 @@ engines:
   - name: duckduckgo
     engine: duckduckgo
     shortcut: ddg
+    disabled: true
 
   - name: duckduckgo images
     engine: duckduckgo_extra
@@ -1646,6 +1650,7 @@ engines:
     qwant_categ: web
     engine: qwant
     shortcut: qw
+    disabled: true
     categories: [general, web]
     additional_tests:
       rosebud: *test_rosebud
@@ -1790,6 +1795,8 @@ engines:
   - name: soundcloud
     engine: soundcloud
     shortcut: sc
+    disabled: true
+
 
   - name: stackoverflow
     engine: stackexchange
@@ -1877,6 +1884,7 @@ engines:
   - name: startpage
     engine: startpage
     shortcut: sp
+    disabled: true
     startpage_categ: web
     categories: [general, web]
     additional_tests:
@@ -2497,6 +2505,7 @@ engines:
     shortcut: br
     time_range_support: true
     paging: true
+    disabled: true
     categories: [general, web]
     brave_category: search
     # brave_spellcheck: true
