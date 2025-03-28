@@ -19,4 +19,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8080
 
 # Start SearxNG, binding to 0.0.0.0 and using the PORT provided by Railway
-CMD ["sh", "-c", "python searxng/webapp.py --host=0.0.0.0 --port=${PORT:-8080}"]
+CMD ["sh", "-c", "python searx/webapp.py --host=0.0.0.0 --port=${PORT:-8080}"]
